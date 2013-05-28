@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin:0 auto;
+	width:800px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	}
+h1,h2,h3,h4,h5,p,a{
+	margin:0;
+	}
+img{ border:0px;}
+.clear{
+	clear:both;}
+.header{
+	text-align:center;
+	}
+.header .franja{
+	height:33px;
+	width:100%;
+	}
+.header h4, .cuerpo h4{
+	text-align:center;
+	font-size:0.8em;
+	font-weight:normal;
+	margin:8px 0 8px 0;
+	}
+h4 a{
+	color:#9C0;
+	font-weight:bold;
+	text-decoration:none;
+	}
+.header h4 a:hover{
+	color:#666;}
+.cuerpo{
+	width:800px;
+	height:1092px;
+	background-image:url(imgs/filtros-bluestone.jpg);
+	margin:auto;}
+.cuerpo .txt{
+	width:380px;
+	float:right;
+	margin-top:680px;}
+.cuerpo .txt img,.cuerpo img{
+	float:right;
+	margin:0px;}
+.cuerpo .txt h2,.cuerpo .colizq h2,span{
+	font-size:0.9em;
+	color:#9C0;
+	font-weight:bold;
+	margin:0;
+	}
+.cuerpo .txt p,.cuerpo p,.cuerpo .colizq h3{
+	text-align:justify;
+	margin:0 10px 10px 0;
+	color:#666;
+	font-size:0.8em;
+	}
+.cuerpo h1,.cuerpo li,.cuerpo .colder h3,.cuerpo .colder a{
+	font-size:1.0em;
+	color:#507b9a;
+	}
+.cuerpo ul {
+	list-style-image:url(imgs/flechas.png);
+	margin:0;
+	}
+.cuerpo li{
+	margin-bottom:10px;
+	}
+.cuerpo .colizq,.cuerpo .colder{
+	width:350px;
+	height:auto;}	
+.cuerpo .colizq{
+	float:left;
+	background:url(imgs/mundo.jpg) no-repeat 0 0;
+	}
+.cuerpo .colder{
+	float:right;
+	text-align:right;
+	background: url(imgs/flecha.jpg) no-repeat left top;
+	}
+.cuerpo .colizq h3,.cuerpo .colizq h2,span{
+	margin-left:30px;}		
+.cuerpo .colder a{
+	text-decoration:none;
+	font-weight:bold;}
+.cuerpo .colder ul li{
+	display:inline;
+	list-style:none;
+	padding:0;
+	float:right;
+	}	
+.cuerpo .colder li,a.twitter,a.facebook{
+	width:41px;
+	height:55px;
+	float:left;
+	}
+.cuerpo .formu{
+	float:left;
+	width:300px;
+	height:auto !important;
+	}
+a.twitter{
+	background:url(imgs/twitter.jpg)top left no-repeat;
+	}	
+a.twitter:hover{
+	background:url(imgs/twitter-roll.jpg)top left no-repeat;
+	}	
+a.facebook{
+	background:url(imgs/facebook.jpg)top left no-repeat;
+	}	
+a.facebook:hover{
+	background:url(imgs/facebook-roll.jpg)top left no-repeat;
+	}	
+.cuerpo .fin{
+	background-color:#507b9a;
+	width:100%;
+	height:10px;
+	clear:both;
+	}
+.cuerpo .ayuda img{
+	padding:20px 60px 10px 0;
+	
+	}		
+		
+/*//////////////////FORMULARIO///////////////////*/
+	
+#contact-form {
+	width: 280px;
+	padding:7px;
+	height:100px;
+	
+}
+.cuerpo h2.ayuda {
+	font-size:1.5em;
+	color:#507b9a;
+	font-weight:bold;
+	padding-left:60px;
+	background:url(imgs/flecha.png) no-repeat top left;
+	height:50px;
+	}
+	#contact-form label {
+		display: block;
+		width: 100%;
+		height: 30px;
+		}
+	
+	#contact-form input {
+		background: none;
+		width: 270px;
+		height: 16px;
+		padding: 3px 10px 3px 10px;
+		border: 1px solid #9C0;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1em;
+		color:#9C0;
+	}
+	#contact-form a.link {
+		float: right;
+		margin: 7px 0 0 14px;
+	}
+.link {
+	float: left;
+	line-height: 1.3em;
+	font-size: 1.0em;
+	font-weight: 400;
+	text-decoration: none;
+	color:#507b9a;
+	border:1px solid #9C0;
+	padding:2px 10px;
+}
+
+	.link:hover {
+		color:#9C0;
+	}
